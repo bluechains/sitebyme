@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background: rgb(63, 63, 63);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 40px;
+}
+
+button {
+    margin-left: 50px;
+    font-family: sans-serif;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+button:hover {
+    background: rgb(255, 165, 165);
+    color: #fff;
+    cursor: pointer;
+}
+
+section {
+    padding: 150px 50px;
+    background: url(space.jpg)
+}
+
+nav a {
+    color: rgb(250, 210, 255);
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 15px;
+}
+
+section p {
+    color: white;
+    font-family: Georgia, 'Times New Roman';
+    font-size: 25px;
+    margin-top: 20px;
+    max-width: 25%;
+
+}
+
+section h1 {
+    color: white;
+    font-family:'Trebuchet MS';
+    font-size: 50px;
+}
+
+footer { 
+    background: rgb(63, 63, 63);
+    color: white;
+    font-family: Tahoma;
+}
