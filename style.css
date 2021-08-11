@@ -25,13 +25,13 @@ button:hover {
     cursor: pointer;
 }
 
-section {
+.hero {
     padding: 150px 50px;
     background: url(space.jpg)
 }
 
 nav a {
-    color: rgb(250, 210, 255);
+    color: rgb(255, 255, 255);
     font-family: sans-serif;
     text-decoration: none;
     padding: 15px;
@@ -43,17 +43,122 @@ section p {
     font-size: 25px;
     margin-top: 20px;
     max-width: 25%;
-
 }
 
 section h1 {
     color: white;
-    font-family:'Trebuchet MS';
+    font-family: 'Trebuchet MS';
     font-size: 50px;
 }
 
-footer { 
+footer {
     background: rgb(63, 63, 63);
     color: white;
     font-family: Tahoma;
 }
+
+h2 {
+    color: white;
+}
+
+.card img {
+    width: 70px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.card {
+    width: 30%;
+}
+
+.bruh {
+    padding: 50px;
+    background: tomato;
+}
+
+.bruh h2 {
+    color: blanchedalmond;
+}
+
+.bruh p {
+    color: blanchedalmond;
+}
+
+.card img {
+    margin-left: 165px;
+}
+
+.card h3 {
+    margin-left: 135px;
+    font-family: sans-serif;
+}
+
+.card p {
+    margin-left: 100px;
+    font-family: tahoma;
+    text-align: center;
+    margin-right: 100px;
+}
+
+.bruh p {
+    margin-left: 475px;
+}
+
+.wrapper {
+    background: tomato;
+}
+
+.bruh h2 {
+    margin-left: 535px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+@media(max-width: 700px) {
+    header {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    nav {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    nav a {
+        margin: 0 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .wrapper {
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 80%;
+        margin: 10px auto;
+    }
+    button{
+        margin-left: 0;
+    }
+   
+    footer{
+        text-align: center;
+    }
+
+    .bruh h2{
+        margin-left: 120;
+    }
+
+    .bruh p{
+        margin-left: 120;
+    }
+   
+ }   
+
+
+ 
